@@ -13,6 +13,8 @@ Harness Engineering：
 
 ## 上下文管理
 
+### OpenAi 的方案
+
 OpenAi 最开始设计了一个超大的 AGENT.md，里面包含所有需要用到的项目相关信息，随用户问题一起发给大模型。但是有以下问题：
 1. [[Context 学习笔记#^efe0fa|内容也越多，效果越差]]。
 2. 文件逐步腐化
@@ -27,6 +29,7 @@ AGENT.md 只放目录，渐进式披露。
 ![[Pasted image 20260524200153.png]]
 
 ## 验证和反馈
+### OpenAi 方案
 
 通过 Tools 和 Skills 验证工具。
 
@@ -34,6 +37,25 @@ AGENT.md 只放目录，渐进式披露。
 
 ![[Pasted image 20260524201723.png]]
 
+### Anthropic 方案
+Anthropic 使用的方案是用评估 Agent 进行对抗。也就是生成代码的 Agent 和评估 Agnet 拆开。
+
+![[Pasted image 20260524205015.png]]
+
+
+> [!quote]
+> **Full Harness 方案**：
+> Planner：需求分析
+> Generator：代码生成
+> Evaluator：验收
+
+重要是每次只选择一个功能点，验收后再执行下一步。
+
+![[Pasted image 20260524205200.png]]
+
+模型更新能力增加后，去掉了每次一个的要求，Evaluator 只做最终验收。
+
+![[Pasted image 20260524205447.png]]
 
 ## 技术债清理
 
