@@ -15,7 +15,8 @@ tags:
 
 ## 太长的上下文可能导致以下问题：
 - [语境中毒：语境中毒是指幻觉或其他错误进入语境，并在语境中被反复提及。_](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-poisoning)
-- [情境干扰：上下文干扰是指上下文发展到一定程度，导致模型过度关注上下文，而忽略了训练期间学到的内容。](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-distraction)
+- [情境干扰：上下文干扰是指上下文发展到一定程度，导致模型过度关注上下文，而忽略了训练期间学到的内容。](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-distraction) ^efe0fa
+	- 本质上就是"内容越多，效果越差"——上下文越长，模型越容易被无关/冗余信息带偏，从而产生更差的输出。
 - [语境混淆：上下文混淆是指模型使用上下文中的冗余内容来生成低质量的响应。](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-confusion)
 - [语境冲突：上下文冲突是指你在你的环境中积累了新的信息和工具，而这些信息和工具与环境中的其他信息相冲突。这是"语境混淆"的一个更严重的版本](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?ref=blog.langchain.com#context-clash)
 
