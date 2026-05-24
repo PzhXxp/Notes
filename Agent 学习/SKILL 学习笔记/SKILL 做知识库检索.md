@@ -65,7 +65,8 @@ tags:
  
 # 参考资料
 
-- [# Agent Skills 做知识库检索，能比传统 RAG 效果更好吗？]
+- [Agent Skills 做知识库检索，能比传统 RAG 效果更好吗？](https://www.bilibili.com/video/BV1RkFAznESD?vd_source=785a544c73b4118d51145510c93b3cd2&spm_id_from=333.788.videopod.sections)
+- 
 
 ---
 [[SKILL 学习笔记]]
