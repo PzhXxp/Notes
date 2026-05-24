@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(xxd \"F:\\\\workspace\\\\Loke\\\\knowledge\\\\Obsidian\\\\Templates\\\\日记模板.md\")"
-    ]
-  }
-}
