@@ -4,6 +4,8 @@ source: "https://arxiv.org/html/2505.03275v1"
 title: "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation"
 tags:
   - "Clipings"
+status: processed
+processed_at: 2026-05-26
 ---
 # 摘要
 
