@@ -103,7 +103,7 @@ status: seedling         # seedling / growing / evergreen
 
 将 raw 中的新源文件编译为 wiki 结构化知识。
 
-**触发词**：`开始摄入` / `ingest`
+**触发词**：`开始摄入` / `ingest` / `更新wiki`
 
 **管线**：
 

@@ -6,12 +6,12 @@
 
 ## Concepts（核心概念）
 
-| Raw 源文件 | Wiki 笔记 | 摘要 |
-|-----------|-----------|------|
-| [[raw/RAG-MCP Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation.md\|RAG-MCP 论文]] | [[concepts/prompt-bloat\|Prompt Bloat]] | LLM 工具选择中的提示词膨胀问题：原因、表现与缓解方法 |
-| —"— | [[concepts/rag-for-tool-selection\|RAG 在工具选择中的应用]] | 将 RAG 从知识检索迁移到工具检索的范式 |
-| —"— | [[concepts/model-context-protocol\|MCP]] | Model Context Protocol 的定位、规模与衍生挑战 |
-| —"— | [[concepts/rag-mcp-framework\|RAG-MCP 框架]] | RAG-MCP 的三步流水线与实验验证 |
+| Raw 源文件                                                                                                         | Wiki 笔记                                            | 摘要                                 |
+| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------- |
+| [[raw/RAG-MCP Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Augmented Generation.md\|RAG-MCP 论文]] | [[concepts/prompt-bloat\|Prompt Bloat]]            | LLM 工具选择中的提示词膨胀问题：原因、表现与缓解方法       |
+| —"—                                                                                                             | [[concepts/rag-for-tool-selection\|RAG 在工具选择中的应用]] | 将 RAG 从知识检索迁移到工具检索的范式              |
+| —"—                                                                                                             | [[concepts/model-context-protocol\|MCP]]           | Model Context Protocol 的定位、规模与衍生挑战 |
+| —"—                                                                                                             | [[concepts/rag-mcp-framework\|RAG-MCP 框架]]         | RAG-MCP 的三步流水线与实验验证                |
 
 ## Papers（论文精读）
 
