@@ -5,7 +5,7 @@ title: "RAG-MCP: Mitigating Prompt Bloat in LLM Tool Selection via Retrieval-Aug
 tags:
   - "Clipings"
 status: processed
-processed_at: 2026-05-26
+processed_at: 2026-05-27
 ---
 # 摘要
 
